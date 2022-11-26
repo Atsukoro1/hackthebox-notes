@@ -18,4 +18,6 @@
 # Privilege escalation
 - I discovered that there is a process running as root containing the panda search, when crawling through the long goofy ahh java file structure I found three java files at this path: "/opt/panda_search/src/main/java/com/panda_search/htb/panda_search"
 - Hardcoded sql credentials in MainController for some reason
+
+## XXE possible to do PRIV ESC
 - Possible XXE in "/opt/credit-score/LogParser/final/src/main/java/com/logparser/App.java"
