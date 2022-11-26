@@ -21,3 +21,4 @@
 
 ## XXE possible to do PRIV ESC
 - Possible XXE in "/opt/credit-score/LogParser/final/src/main/java/com/logparser/App.java"
+- The payload is described in entity.xml
